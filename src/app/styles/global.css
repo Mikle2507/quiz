@@ -1,0 +1,50 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--std-font-family);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 90px 40px 30px;
+  min-height: 100dvh;
+  background: linear-gradient(45deg,
+      #125365 0% 40.4%,
+      #ff713f 40.4% 54.5%,
+      #ff9d46 54.5% 85%,
+      #ffca4a 85% 100%);
+  background-attachment: fixed;
+}
+
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  padding: 0;
+  border: 0;
+  outline: none;
+  background-color: transparent;
+}
+
+.txt-clr-success {
+  color: var(--clr-success);
+}
+
+.txt-clr-fail {
+  color: var(--clr-fail);
+}

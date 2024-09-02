@@ -1,0 +1,26 @@
+.content,
+.header,
+.body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  row-gap: var(--std-offset);
+}
+
+.header {
+  align-items: flex-start;
+}
+
+.header,
+.body {
+  row-gap: var(--offset-sm);
+}
+
+.img {
+  width: 90px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: var(--std-border-radius-md);
+}

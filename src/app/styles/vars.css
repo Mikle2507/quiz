@@ -1,0 +1,21 @@
+:root {
+  --std-font-family: "Inter";
+  --clr-gray: #F1F1EF;
+  --clr-light: #FFFFFF;
+  --clr-primary: #125365;
+  --clr-primary-light: #81A1A9;
+  --clr-secondary: #FF9C46;
+  --clr-secondary-ligth: #EDD0B6;
+  --clr-success: #2A8F55;
+  --clr-fail: #DF4C25;
+  --offset-lg: 32px;
+  --offset-md: 24px;
+  --offset-sm: 16px;
+  --offset-xs-m: 12px;
+  --offset-xs: 8px;
+  --border-width: 4px;
+  --std-border-radius-md: 10px;
+  --std-border-radius: 8px;
+  --app-bg: var(--clr-gray);
+  --std-offset: var(--offset-lg);
+}

@@ -1,0 +1,31 @@
+.block {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  row-gap: var(--offset-lg);
+  padding: var(--offset-lg);
+  background-color: var(--clr-gray);
+  border-radius: var(--std-border-radius-md);
+}
+
+.img {
+  max-width: 134px;
+  position: absolute;
+  right: 0;
+  transform: translateY(-80%);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--offset-xs)
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: var(--offset-sm);
+}

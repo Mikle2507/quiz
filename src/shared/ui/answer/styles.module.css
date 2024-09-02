@@ -1,0 +1,83 @@
+.label {
+  cursor: pointer;
+}
+
+.label-disabled {
+  cursor: auto;
+}
+
+.input {
+  position: absolute;
+  opacity: 0;
+}
+
+.text {
+  position: relative;
+  display: flex;
+  padding: var(--offset-sm);
+  column-gap: var(--offset-xs-m);
+  border: var(--border-width) solid var(--clr-primary);
+  border-radius: var(--std-border-radius-md);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: var(--clr-primary);
+  transition-property: color, background-color, border-color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.input:checked+.text {
+  color: var(--clr-gray);
+  background-color: var(--clr-secondary);
+  border-color: var(--clr-secondary);
+}
+
+.input:checked+.text {
+  color: var(--clr-gray);
+  background-color: var(--clr-secondary);
+  border-color: var(--clr-secondary);
+}
+
+@media(min-width: 1200px) {
+  .label:not(.label-disabled) .text:hover {
+    color: var(--clr-gray);
+    background-color: var(--clr-secondary);
+    border-color: var(--clr-secondary);
+  }
+}
+
+.success .input+.text {
+  color: var(--clr-gray);
+  background-color: var(--clr-success);
+  border-color: var(--clr-success);
+}
+
+.fail .input+.text {
+  color: var(--clr-gray);
+  background-color: var(--clr-fail);
+  border-color: var(--clr-fail);
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0;
+  align-self: center;
+  margin-left: auto;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 2px solid var(--clr-gray);
+}
+
+.svg {
+  fill: var(--clr-gray);
+  stroke: var(--clr-gray);
+}
+
+.fail .svg {
+  width: 8px;
+  height: 8px;
+}

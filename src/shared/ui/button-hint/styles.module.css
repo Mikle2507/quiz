@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--offset-xs);
+  text-align: center;
+}
+
+.hint {
+  font-size: 10px;
+  line-height: 12px;
+  color: var(--clr-primary);
+}
+
+.btn:disabled+.description {
+  color: var(--clr-primary-light);
+}

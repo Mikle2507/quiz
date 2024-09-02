@@ -1,0 +1,20 @@
+.block {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--offset-lg);
+  padding: var(--offset-lg);
+  background-color: var(--clr-gray);
+  border-radius: var(--std-border-radius-md);
+}
+
+.btn {
+  width: 270px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 10px;
+}

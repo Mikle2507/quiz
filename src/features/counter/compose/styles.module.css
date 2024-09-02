@@ -1,0 +1,15 @@
+.counter {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 21px;
+}
+
+.svg {
+  fill: var(--clr-primary);
+  stroke: var(--clr-primary);
+}
+
+.input {
+  width: 118px;
+  height: 76px;
+}

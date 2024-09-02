@@ -1,0 +1,22 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--offset-sm);
+  width: 590px;
+}
+
+.footer {
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--clr-gray);
+}
+
+.footer>a {
+  color: var(--clr-gray);
+}
+
+@media (min-width: 1200px) {
+  .footer>a:hover {
+    text-decoration: none;
+  }
+}

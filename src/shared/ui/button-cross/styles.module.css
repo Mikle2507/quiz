@@ -1,0 +1,33 @@
+.btn {
+  position: absolute;
+  font-size: 0;
+  right: 0;
+  bottom: 100%;
+  transform: translateY(-25px);
+  width: 33px;
+  height: 33px;
+  background: none;
+  border: var(--border-width) solid var(--clr-gray);
+  border-radius: 50%;
+  transition: border-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.btn>svg {
+  fill: var(--clr-gray);
+  stroke: var(--clr-gray);
+  transition-property: fill, stroke;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+@media (min-width: 1200px) {
+  .btn:hover {
+    border-color: var(--clr-primary);
+  }
+
+  .btn:hover>svg {
+    fill: var(--clr-primary);
+    stroke: var(--clr-primary);
+  }
+}

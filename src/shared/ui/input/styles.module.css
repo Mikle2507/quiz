@@ -1,0 +1,28 @@
+.input {
+  max-width: 100%;
+  padding: 16px 0;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  border: var(--border-width) solid rgb(18, 83, 101);
+  border-radius: var(--std-border-radius-md);
+  outline: none !important;
+  color: var(--clr-primary);
+  text-align: center;
+  background: none;
+  transition-property: color, border-color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.input:focus-visible {
+  color: var(--clr-secondary);
+  border-color: var(--clr-secondary);
+}
+
+@media (min-width: 1200px) {
+  .input:hover {
+    color: var(--clr-secondary);
+    border-color: var(--clr-secondary);
+  }
+}
